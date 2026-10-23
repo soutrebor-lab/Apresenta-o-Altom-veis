@@ -24,7 +24,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Extract presentation
-        run: unzip -q github-site.zip -d site
+        run: unzip -q github-site-updated.zip -d site
       - name: Configure Pages
         uses: actions/configure-pages@v5
       - name: Upload Pages artifact
